@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Femininity</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Unbounded:wght@200;300;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-wrapper">
+        <div class="container">
+          <!-- <p class="header-start">
+            Старт <span id="dateElement"></span> <span id="monthElement"></span>
+          </p> -->
+          <p class="header-start">Старт 10 лютого</p>
+          <h1 class="header-title">Жіночність <br /><span>та орGазм</span></h1>
+          <p class="header-description">
+            Як навчитись керувати своїм задоволенням
+          </p>
+          <div class="buy-button-container">
+            <button class="header-button" data-action="open-modal">
+              Приєднатись
+            </button>
+            <div class="header-sale-mark">
+              <picture
+                ><source
+                  srcset="
+                    ./src/images/header-mark-1x.png 1x,
+                    ./src/images/header-mark-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="70"
+                  height="70" />
+                <img
+                  class="sale-mark"
+                  src="./src/images/header-mark-1x.png"
+                  alt="sale"
+                  width="70"
+                  height="70"
+              /></picture>
+              <p class="sale-number">
+                <span>до</span> <br />
+                -93%
+              </p>
+            </div>
+          </div>
+          <div class="bonus-wrapper">
+            <h3 class="bonus-title">Бонуси</h3>
+            <picture
+              ><source
+                srcset="
+                  ./src/images/bonus-gift-mobile-1x.png 1x,
+                  ./src/images/bonus-gift-mobile-2x.png 2x
+                "
+                media="(min-width: 320px)"
+                width="50"
+                height="50" />
+              <img
+                class="bonus-wrapper-gift"
+                src="./src/images/bonus-gift-mobile-1x.png"
+                alt="gift"
+                width="50"
+                height="50"
+            /></picture>
+            <ul class="bonuses-list">
+              <li class="list-item">
+                <span>«Рефлекс орGазму»</span> - техніка на зняття тілесних
+                блоків та затисків
+              </li>
+              <li class="list-item">
+                <span>«Педаль газу та педаль гальм»</span> - вправа на виявлення
+                своїх запускачів та стримувачів збудження
+              </li>
+              <li class="list-item">
+                <span>«Поговоримо про це»</span> - вправа для підвищення
+                $ексуальної самооцінки партнерів та тренування навичок чуттєвої
+                розмови для пари
+              </li>
+            </ul>
+          </div>
+          <p class="timer-text">Встигніть забрати знижку і всі бонуси</p>
+          <div id="countdown" class="countdown">
+            <div class="countdown-number">
+              <span class="hours countdown-time"></span>
+            </div>
+            <div><span class="countdown-doubledot"></span></div>
+            <div class="countdown-number">
+              <span class="minutes countdown-time"></span>
+            </div>
+            <div><span class="countdown-doubledot"></span></div>
+            <div class="countdown-number">
+              <span class="seconds countdown-time"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section-one">
+        <div class="container">
+          <div class="sect-one-border">
+            <h3 class="border-title">
+              Жіноче $ексуальне задоволення залежить
+              <span>не тільки від того, що ми робимо в спальні</span>
+            </h3>
+            <ul class="border-list list">
+              <li class="list-item">
+                <span>Наше задоволення залежить і від</span> переконань, уявлень
+                про інтимне, ставлення до себе, свого тіла. Багато цих речей
+                були сформовані оточенням, задовго до того як ми стали дорослими
+              </li>
+              <li class="list-item">
+                <span> Я пропоную тобі звільнитись від обмежень,</span> які
+                впливають на твоє задоволення пройшовши курс «Жіночність та
+                оргGазм. Як навчитись керувати своїм задоволенням»
+              </li>
+            </ul>
+          </div>
+          <h2 class="sect-one-title">Цей курс Для Дівчат, <span>які:</span></h2>
+          <div>
+            <ul class="sect-one-list list">
+              <li class="list-item">
+                <h4 class="item-title">Ще не мали</h4>
+                <p class="item-text">статевого життя</p>
+              </li>
+              <li class="list-item">
+                <h4 class="item-title">Тільки починають пізнавати</h4>
+                <p class="item-text">світ чуттєвих насолод</p>
+              </li>
+              <li class="list-item">
+                <h4 class="item-title">Ніколи не мали</h4>
+                <p class="item-text">феєрверків в ліжку</p>
+              </li>
+              <li class="list-item">
+                <h4 class="item-title">Швидко можуть задовольнити</h4>
+                <p class="item-text">
+                  самі себе, але не досягають піку з партнером
+                </p>
+              </li>
+              <li class="list-item">
+                <h4 class="item-title">Є матусями</h4>
+                <p class="item-text">та виховують донечок</p>
+              </li>
+              <li class="list-item">
+                <h4 class="item-title">Мають труднощі</h4>
+                <p class="item-text">
+                  з тим щоб пояснити партнеру свої бажання
+                </p>
+              </li>
+              <li class="list-item">
+                <h4 class="item-title">Хочуть покращити</h4>
+                <p class="item-text">своє статеве життя</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section-two">
+        <div class="background-container">
+          <div class="container">
+            <h2 class="sect-two-title">про <span>автора</span></h2>
+            <div class="author-image-container">
+              <picture
+                ><source
+                  srcset="
+                    ./src/images/sect-two-author-mobile-1x.png 1x,
+                    ./src/images/sect-two-author-mobile-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="320"
+                  height="320" />
+                <img
+                  class="author-image"
+                  src="./src/images/sect-two-author-mobile-1x.png"
+                  alt="Святослава Федорець"
+                  width="320"
+                  height="320"
+              /></picture>
+            </div>
+            <div class="about-author-container">
+              <h4 class="author-name">Святослава Федорець</h4>
+              <ul class="about-author-list list">
+                <li class="list-item">
+                  Привіт, я сексолог, психолог. Веду курси сексології для
+                  фахівців та маю приватну практику. Отож, добре знаю як багато
+                  питань щодо $ексуальності є в жінок.
+                </li>
+                <li class="list-item">
+                  Зрештою мені прийшла думка дати свої знання всім, хто їх
+                  потребує. Так і виникла ідея даного курсу.
+                </li>
+              </ul>
+              <p class="about-author-text">
+                Я хочу поділитись з тобою знаннями, які:
+              </p>
+              <ul class="author-list list">
+                <li class="list-item">
+                  допоможуть навчитись керувати власним $ексуальним задоволенням
+                </li>
+                <li class="list-item">
+                   допоможуть прибрати блоки та обмеження, які заважають вільно
+                  проявляти свою $ексуальність
+                </li>
+                <li class="list-item">
+                  допоможуть навчитись вільно говорити про $екс, розвинуть твої
+                  оргазмічні навички та покращать стосунки з партнером
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-three">
+        <div class="container">
+          <h2 class="sect-three-title">програма <span>курсу</span></h2>
+          <div class="faq">
+            <div class="question open isOpen">
+              <div class="question-name">
+                <p>Лекція 1. Як формувалась твоя $ексуальність</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <ul>
+                  <li>Особливості жіночої сек$уальності</li>
+                  <li>Менструальний цикл та сек$уальність</li>
+                  <li>Як дитина знайомиться з своєю сек$уальністю</li>
+                  <li>
+                    Як твоє дитинство та підлітковий вік вплинули на твою
+                    сек$уальність
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="question">
+              <div class="question-name">
+                <p>
+                  Лекція 2. Що тобі зараз заважає отримувати чуттєву насолоду
+                </p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <ul>
+                  <li>Працюємо над власними сек$уальними проблемами</li>
+                  <li>Модель жіночих сек$уальних реакцій</li>
+                  <li>«Вбивці» орGазму та як їх позбутись</li>
+                  <li>Техніка на прийняття власної жіночності</li>
+                </ul>
+              </div>
+            </div>
+            <div class="question">
+              <div class="question-name">
+                <p>Лекція 3. Гальма всередині мене</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <ul>
+                  <li>“Вмикачі” та “вимикачі” zбудження</li>
+                  <li>Тестуємо свій сек$уальний темперамент</li>
+                  <li>Жіночі сек$уальні страхи</li>
+                  <li>Техніка «Звільнення від $ексуальних страхів»</li>
+                </ul>
+              </div>
+            </div>
+            <div class="question">
+              <div class="question-name">
+                <p>Лекція 4. Я $ексуальна, а от моє тіло - не дуже</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <ul>
+                  <li>Досліджуємо свої уявлення про тілесність</li>
+                  <li>Як я сприймаю своє тіло «там»</li>
+                  <li>Як я сприймаю чоловіче тіло</li>
+                  <li>Зміна свого відношення до тілесності</li>
+                </ul>
+              </div>
+            </div>
+            <div class="question">
+              <div class="question-name">
+                <p>Лекція 5. ОрGазм і що про нього має знати кожна жінка</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <ul>
+                  <li>Функції орGазму</li>
+                  <li>
+                    Види орGазму, завершений та незавершений орGазм,
+                    анестезований орGазм
+                  </li>
+                  <li>Види маsтурбації</li>
+                  <li>Коли маsтурбація може заважати орGазму під час сек$у</li>
+                </ul>
+              </div>
+            </div>
+            <div class="question">
+              <div class="question-name">
+                <p>
+                  Лекція 6. Я люблю сек$, але давайте не будемо про нього
+                  говорити
+                </p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <ul>
+                  <li>Чому ми не можемо говорити про інтимне</li>
+                  <li>Топ-помилок в інтимному обговоренні</li>
+                  <li>
+                    Розмова про $екс починається з прийняття своїх фантазій та
+                    бажань
+                  </li>
+                  <li>Досліджуємо свої $ексуальні сценарії</li>
+                </ul>
+              </div>
+            </div>
+            <div class="question">
+              <div class="question-name">
+                <p>Лекція 7. Як подружити клітор та вагіну</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <ul>
+                  <li>Будова клітора та його приховані можливості</li>
+                  <li>Вагінальний еротизм - чому він формується пізніше</li>
+                  <li>Як розвинути вагінальний еротизм</li>
+                  <li>Вивчаємо свої ероGенні зони</li>
+                </ul>
+              </div>
+            </div>
+            <div class="question last-question">
+              <div class="question-name">
+                <p>
+                  Лекція 8. Мій чоловік дуже старається, але робить не так і не
+                  там
+                </p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <ul>
+                  <li>
+                    “Медвежа послуга” від попередніх партнерш та імітація
+                    орGазму
+                  </li>
+                  <li>Звичка зівнювати з іншими</li>
+                  <li>Чому так складно пояснити словами «як саме потрібно»</li>
+                  <li>$екс-терапевтична техніка «Рука на руці»</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper-all">
+            <h3 class="wrapper-title">це все<br /><span>за ціною</span></h3>
+            <div class="second-wrapper">
+              <p class="old-price">7700грн</p>
+              <ul class="price-list list">
+                <li class="list-item">до 5.02 - <span>550 грн</span></li>
+                <li class="list-item">до 10.02 - <span>770 грн</span></li>
+                <li class="list-item">після 10.02 - <span>990 грн</span></li>
+              </ul>
+            </div>
+            <p class="price-description">
+              Встигніть придбати зі <span>знижкою 85%</span>
+            </p>
+          </div>
+          <div class="buy-button-container margin-bottom-30">
+            <button class="second-buy-button" data-action="open-modal">
+              Приєднатись
+            </button>
+            <div class="yellow-sale-mark">
+              <picture
+                ><source
+                  srcset="
+                    ./src/images/yellow-mark-1x.png 1x,
+                    ./src/images/yellow-mark-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="70"
+                  height="70" />
+                <img
+                  class="sale-mark"
+                  src="./src/images/yellow-mark-1x.png"
+                  alt="sale"
+                  width="70"
+                  height="70"
+              /></picture>
+              <p class="sale-number">
+                <span>до</span> <br />
+                -93%
+              </p>
+            </div>
+          </div>
+          <p class="timer-text">Встигніть забрати знижку і всі бонуси</p>
+          <div id="countdown-two" class="countdown-two">
+            <div class="countdown-number-two">
+              <span class="hours-two countdown-time-two"></span>
+            </div>
+            <div><span class="countdown-doubledot-two"></span></div>
+            <div class="countdown-number">
+              <span class="minutes-two countdown-time-two"></span>
+            </div>
+            <div><span class="countdown-doubledot-two"></span></div>
+            <div class="countdown-number">
+              <span class="seconds-two countdown-time-two"></span>
+            </div>
+          </div>
+          <div class="bonus-wrapper">
+            <h3 class="bonus-title">Бонуси</h3>
+            <picture
+              ><source
+                srcset="
+                  ./src/images/bonus-gift-mobile-1x.png 1x,
+                  ./src/images/bonus-gift-mobile-2x.png 2x
+                "
+                media="(min-width: 320px)"
+                width="50"
+                height="50" />
+              <img
+                class="bonus-wrapper-gift"
+                src="./src/images/bonus-gift-mobile-1x.png"
+                alt="gift"
+                width="50"
+                height="50"
+            /></picture>
+            <ul class="bonuses-list-black">
+              <li class="list-item">
+                <span>«Рефлекс орGазму»</span> - техніка на зняття тілесних
+                блоків та затисків
+              </li>
+              <li class="list-item">
+                <span>«Педаль газу та педаль гальм»</span> - вправа на виявлення
+                своїх запускачів та стримувачів збудження
+              </li>
+              <li class="list-item">
+                <span>«Поговоримо про це»</span> - вправа для підвищення
+                $ексуальної самооцінки партнерів та тренування навичок чуттєвої
+                розмови для пари
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section-four">
+        <div class="background-container">
+          <div class="container">
+            <div class="four-wrapper">
+              <picture
+                ><source
+                  srcset="
+                    ./src/images/four-wrapper-laptop-mobile-1x.png 1x,
+                    ./src/images/four-wrapper-laptop-mobile-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="50"
+                  height="50" />
+                <img
+                  class="four-wrapper-laptop"
+                  src="./src/images/four-wrapper-laptop-mobile-1x.png"
+                  alt="laptop"
+                  width="50"
+                  height="50"
+              /></picture>
+              <h3 class="wrapper-title">
+                як<br /><span class="title-span-one">відбувається</span
+                ><br /><span class="title-span-two">навчання</span>
+              </h3>
+              <ul class="four-wrapper-list">
+                <li class="list-item">
+                  Після оплати учасниці надається доступ до навчальної
+                  платформи, де буде відкрито доступ одразу до всіх занять.
+                  Рекомендується проходити заняття в тій послідовності, в якій
+                  вони розміщені
+                </li>
+                <li class="list-item">
+                  Курс розроблений таким чином, щоб дати концентровану, основну
+                  інформацію, без води, довгих вступів та загальних розмов
+                </li>
+                <li class="list-item">
+                  Курс можна проходити в будь-який зручний час. Але для
+                  досягнення найкращих результатів рекомендується не робити
+                  тривалих перерв між кожним заняттям
+                </li>
+                <li class="list-item">
+                  Онлайн курс триватиме 8 днів і починається одразу після
+                  оплати. Доступ до матеріалів зберігатиметься ще протягом 3
+                  місяців. Що дасть можливість проходити курс, навіть якщо ти
+                  пропустиш якесь із занять
+                </li>
+                <li class="list-item">
+                  Тільки в цей раз додатково я проведу два ефіри в zoom, на яких
+                  у нас буде можливість поспілкуватися в комфортній, довірчій
+                  обстановці і ти зможеш отримати відповіді на будь-які свої
+                  питання
+                </li>
+              </ul>
+              <span class="wrapper-list-plus">+</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-five">
+        <div class="container">
+          <h2 class="sect-five-title">
+            ЩО ОТРИМАЄШ ПРОЙШОВШИ <span>МІЙ КУРС?</span>
+          </h2>
+          <div>
+            <ul class="five-list list">
+              <li class="list-item">
+                Зможеш дослідити як формувалась твоя $ексуальність та які
+                переконання ти засвоїла в дитинстві
+              </li>
+              <li class="list-item-decoration-left">
+                <img
+                  class="five-list-decoration-line-one"
+                  src="./src/images/five-list-docaration-item.svg"
+                  alt="|"
+                />
+              </li>
+              <li class="list-item">
+                Знайдеш блоки, які заважають тобі бути розкутою та сек$уальною
+              </li>
+              <li class="list-item-decoration-right">
+                <img
+                  class="five-list-decoration-line-two"
+                  src="./src/images/five-list-docaration-item.svg"
+                  alt="|"
+                />
+              </li>
+              <li class="list-item">
+                Виявиш речі, які гальмують твою чуттєвість
+              </li>
+              <li class="list-item-decoration-left">
+                <img
+                  class="five-list-decoration-line-one"
+                  src="./src/images/five-list-docaration-item.svg"
+                  alt="|"
+                />
+              </li>
+              <li class="list-item">
+                Навчишся приймати свої сек$уальні фантазії та бажання
+              </li>
+              <li class="list-item-decoration-right">
+                <img
+                  class="five-list-decoration-line-two"
+                  src="./src/images/five-list-docaration-item.svg"
+                  alt="|"
+                />
+              </li>
+              <li class="list-item">
+                Попрацюєш з своєю тілесністю та її впливом на твою сек$уальність
+              </li>
+              <li class="list-item-decoration-left">
+                <img
+                  class="five-list-decoration-line-one"
+                  src="./src/images/five-list-docaration-item.svg"
+                  alt="|"
+                />
+              </li>
+              <li class="list-item">
+                Зможеш без слів пояснити партнерові «як саме потрібно» тобі
+              </li>
+              <li class="list-item-decoration-left">
+                <img
+                  class="five-list-decoration-line-one"
+                  src="./src/images/five-list-docaration-item.svg"
+                  alt="|"
+                />
+              </li>
+              <li class="list-item">
+                Навчишся розвивати свій Vагінальний еротизм
+              </li>
+              <li class="list-item-decoration-right">
+                <img
+                  class="five-list-decoration-line-two"
+                  src="./src/images/five-list-docaration-item.svg"
+                  alt="|"
+                />
+              </li>
+              <li class="list-item">
+                Отримаєш знання як зробити секс більш чуттєвим та знімати
+                напругу при інтимній близькості
+              </li>
+            </ul>
+          </div>
+          <div class="motivation-container">
+            <div class="motivation-start">
+              <p class="motivation-now-text">ПОЧНИ ЗМІНИ ПРОСТО СЬОГОДНІ</p>
+            </div>
+            <ul class="motivation-list list">
+              <li class="list-item">
+                Ти відчуваєш, що це саме те, чого тобі не вистачало?
+              </li>
+              <li class="list-item">
+                Ти побачила в описі ті речі, які безпосередньо стосуються тебе?
+              </li>
+              <li class="list-item">
+                Ти готова вдосконалити свою жіночність? 
+              </li>
+            </ul>
+            <p class="chance-text">Це твій шанс</p>
+            <p class="garant-text">
+              *Безумовна гарантія повернення коштів - 14 днів
+            </p>
+          </div>
+          <div class="wrapper-all">
+            <h3 class="wrapper-title">це все<br /><span>за ціною</span></h3>
+            <div class="second-wrapper">
+              <p class="old-price">7700грн</p>
+              <ul class="price-list list">
+                <li class="list-item">до 5.02 - <span>550 грн</span></li>
+                <li class="list-item">до 10.02 - <span>770 грн</span></li>
+                <li class="list-item">після 10.02 - <span>990 грн</span></li>
+              </ul>
+            </div>
+            <p class="price-description">
+              Встигніть придбати зі <span>знижкою 85%</span>
+            </p>
+          </div>
+          <div class="buy-button-container margin-bottom-10">
+            <button class="second-buy-button" data-action="open-modal">
+              Приєднатись
+            </button>
+            <div class="yellow-sale-mark">
+              <picture
+                ><source
+                  srcset="
+                    ./src/images/yellow-mark-1x.png 1x,
+                    ./src/images/yellow-mark-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="70"
+                  height="70" />
+                <img
+                  class="sale-mark"
+                  src="./src/images/yellow-mark-1x.png"
+                  alt="sale"
+                  width="70"
+                  height="70"
+              /></picture>
+              <p class="sale-number">
+                <span>до</span> <br />
+                -93%
+              </p>
+            </div>
+          </div>
+          <p class="sect-five-text">
+            Курс не має протипоказань та на 100% безпечний для тебе
+          </p>
+        </div>
+      </section>
+      <section class="section-six">
+        <div class="container">
+          <h2 class="sect-six-title">Відповіді <span>на питання</span></h2>
+          <div class="faq-two">
+            <div class="question-two open isOpen">
+              <div class="question-two-name">
+                <p>Цей курс дійсно допоможе?</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus-white.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content-two">
+                <p>
+                  Наша сек$уальність дуже різна, багатогранна та динамічна. Ти
+                  одержиш найбільш повний перелік прийомів, інструментів та
+                  рекомендацій, які точно допоможуть вивести твоє інтимне життя
+                  на якісно новий рівень.
+                </p>
+              </div>
+            </div>
+            <div class="question-two">
+              <div class="question-two-name">
+                <p>Як довго мені чекати результатів?</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus-white.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content-two">
+                <p>
+                  Ситуація кожного унікальна. Хтось в стосунках, хтось ні. Ми
+                  всі навчаємось з різною швидкістю. Деякі відчувають зміни
+                  після перших занять, іншим треба більше часу. Головне – це
+                  бажання та тренування.
+                </p>
+              </div>
+            </div>
+            <div class="question-two">
+              <div class="question-two-name">
+                <p>Чи може замінити курс візит до спеціаліста</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus-white.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content-two">
+                <p>
+                  На жаль, жоден курс не може вирішити всі питання і можливо
+                  тобі доведеться попрацювати трохи більше, звернувшись до
+                  фахівця. Але даний курс точно може замінити тобі кілька
+                  консультацій в спеціаліста.
+                </p>
+              </div>
+            </div>
+            <div class="question-two">
+              <div class="question-two-name">
+                <p>Чи можна повернути гроші, якщо курс мені не підійде?</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus-white.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content-two">
+                <p>
+                  Звичайно! У тебе є 14 днів, щоб вирішити, що цей курс дійсно
+                  для тебе. Якщо вирішиш, що ні – ми повернемо гроші. Без зайвих
+                  запитань.
+                </p>
+              </div>
+            </div>
+            <div class="question-two">
+              <div class="question-two-name">
+                <p>Я ще не мала $ексу. Чи варто мені проходити курс?</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus-white.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content-two">
+                <p>
+                  Безумовно. Знання які ти одержиш на курсі допоможуть тобі
+                  більше дізнатись про жіночу сек$уальність, більше вивчити своє
+                  тіло, а також точно стануть в нагоді в майбутньому.
+                </p>
+              </div>
+            </div>
+            <div class="question-two">
+              <div class="question-two-name">
+                <p>Якщо я зараз без партнера, чи варто проходити курс?</p>
+                <img
+                  class="question-plus"
+                  src="./src/images/questions-plus-white.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content-two">
+                <p>
+                  Так. Курс побудований так, що будь-яка жінка зможе взяти з
+                  нього техніки, які дозволять попрацювати самостійно. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-deals">
+          <ul class="deals-list list">
+            <li class="list-item">
+              <a class="link" href="">Договір оферта</a>
+            </li>
+            <li class="list-item">
+              <a class="link" href="">Політика конфіденційності</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social-container">
+          <div class="mail-container">
+            <img
+              src="./src/images/gmail-icon.svg"
+              alt="gmail"
+              width="20"
+              height="20"
+            />
+            <a class="mail-link" href="">fedorets.course@gmail.com</a>
+          </div>
+        </div>
+        <div class="fop-container">
+          <p class="fop-name">ФОП Федорець Святослава</p>
+        </div>
+        <a
+          class="disign-creator-link link"
+          href="https://www.instagram.com/lllckui"
+          ><div class="disign-creator">
+            <p class="create-by-text">Сайт розроблений</p>
+            <img
+              class="insta-icon"
+              src="./src/images/insta-icon.svg"
+              alt=""
+              width="14"
+              height="14"
+            />
+            <p class="create-by-text">@lllckui</p>
+          </div>
+        </a>
+      </div>
+    </footer>
+    <div class="backdrop js-backdrop">
+      <div class="modal">
+        <button
+          class="modal-close-button"
+          type="button"
+          data-action="close-modal"
+        >
+          <img
+            src="./src/images/close-modal-icon.svg"
+            alt=" close"
+            width="30"
+            height="30"
+          />
+        </button>
+        <div id="kwiga-widget-1706252324"></div>
+      </div>
+    </div>
+    <script type="module" src="./src/js/timer.js"></script>
+    <script
+      type="module"
+      src="https://kwiga.com/build/js/kwiga-widget.js?t=1706252324&uuid=74b0ca9b-1ad5-4d28-b722-6738a1a9b86e&producer=https://kwiga.com/"
+    ></script>
+    <script type="module" src="./src/js/js-modal.js"></script>
+    <script type="module" src="./src/js/jquery-3.7.0.min.js"></script>
+    <script type="module" src="./src/js/faq.js"></script>
+  </body>
+</html>
