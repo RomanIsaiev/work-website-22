@@ -1118,6 +1118,10 @@ p {
 .section-five {
   padding-top: 60px;
   padding-bottom: 60px;
+
+  background-image: url(../images/section-five-decoration.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 600px right 0;
 }
 
 .sect-five-title {
