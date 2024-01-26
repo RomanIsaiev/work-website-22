@@ -59,32 +59,32 @@ function initializeClockTwo(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-function initializeClockThree(id, endtime) {
-  var clock = document.getElementById(id);
-  var hoursSpan = clock.querySelector(".hours-three");
-  var minutesSpan = clock.querySelector(".minutes-three");
-  var secondsSpan = clock.querySelector(".seconds-three");
+// function initializeClockThree(id, endtime) {
+//   var clock = document.getElementById(id);
+//   var hoursSpan = clock.querySelector(".hours-three");
+//   var minutesSpan = clock.querySelector(".minutes-three");
+//   var secondsSpan = clock.querySelector(".seconds-three");
 
-  function updateClock() {
-    var t = getTimeRemaining(endtime);
-    hoursSpan.innerHTML = ("0" + t.hours).slice(-2);
-    minutesSpan.innerHTML = ("0" + t.minutes).slice(-2);
-    secondsSpan.innerHTML = ("0" + t.seconds).slice(-2);
+//   function updateClock() {
+//     var t = getTimeRemaining(endtime);
+//     hoursSpan.innerHTML = ("0" + t.hours).slice(-2);
+//     minutesSpan.innerHTML = ("0" + t.minutes).slice(-2);
+//     secondsSpan.innerHTML = ("0" + t.seconds).slice(-2);
 
-    if (t.total <= 0) {
-      clearInterval(timeinterval);
-      var deadline = new Date(Date.parse(endtime) + 24 * 60 * 60 * 1000);
-      initializeClockThree("countdown-three", deadline);
-    }
-  }
+//     if (t.total <= 0) {
+//       clearInterval(timeinterval);
+//       var deadline = new Date(Date.parse(endtime) + 24 * 60 * 60 * 1000);
+//       initializeClockThree("countdown-three", deadline);
+//     }
+//   }
 
-  updateClock();
-  var timeinterval = setInterval(updateClock, 1000);
-}
+//   updateClock();
+//   var timeinterval = setInterval(updateClock, 1000);
+// }
 
 var deadline = "September 31 2024 00:00:00 GMT+0200";
 initializeClock("countdown", deadline);
 initializeClockTwo("countdown-two", deadline);
-initializeClockThree("countdown-three", deadline);
+// initializeClockThree("countdown-three", deadline);
 
 // timer - two;
