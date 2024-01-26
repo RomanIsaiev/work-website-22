@@ -1505,6 +1505,10 @@ p {
 
 /* modal */
 
+body.show-modal {
+  overflow: hidden;
+}
+
 body.show-modal .backdrop {
   opacity: 1;
   visibility: visible;
@@ -1550,7 +1554,7 @@ body.show-modal .modal {
   transform: scale(1);
   transition: transform 200ms ease-in-out;
 
-  overflow: auto;
+  overflow: scroll;
 }
 
 .modal-close-button {
