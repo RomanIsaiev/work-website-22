@@ -35,9 +35,6 @@ p {
 
 /* HEADER */
 
-.header {
-}
-
 .header-wrapper {
   padding-top: 20px;
   padding-bottom: 60px;
@@ -121,6 +118,8 @@ p {
 }
 
 .header-button {
+  display: block;
+
   color: #101010;
   text-align: center;
   font-family: Manrope;
@@ -847,6 +846,8 @@ p {
 }
 
 .second-buy-button {
+  display: block;
+
   color: #fff;
   text-align: center;
   font-family: Manrope;
@@ -1578,4 +1579,28 @@ body.show-modal .modal {
   right: 30px;
   background: none;
   border: none;
+}
+
+.kwiga-widget-text {
+  color: #090909;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.ps-text {
+  color: #090909;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+
+  margin-bottom: 30px;
 }
