@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="uk">
   <head>
     <meta charset="UTF-8" />
@@ -42,7 +42,7 @@
         window,
         document,
         "script",
-        "https://connect.facebook.net/en_US/fbevents.js"
+        "https://connect.facebook.net/en_US/fbevents.js",
       );
       fbq("init", "379175694844922");
       fbq("track", "PageView");
@@ -128,17 +128,17 @@
             </ul>
           </div>
           <p class="timer-text">Встигніть забрати знижку і всі бонуси</p>
-          <div id="countdown" class="countdown">
-            <div class="countdown-number">
-              <span class="hours countdown-time"></span>
-            </div>
-            <div><span class="countdown-doubledot"></span></div>
+          <div class="countdown" data-minutes="3">
             <div class="countdown-number">
               <span class="minutes countdown-time"></span>
             </div>
             <div><span class="countdown-doubledot"></span></div>
             <div class="countdown-number">
               <span class="seconds countdown-time"></span>
+            </div>
+            <div><span class="countdown-doubledot"></span></div>
+            <div class="countdown-number">
+              <span class="milliseconds countdown-time"></span>
             </div>
           </div>
         </div>
@@ -489,17 +489,17 @@
             </div>
           </div>
           <p class="timer-text">Встигніть забрати знижку і всі бонуси</p>
-          <div id="countdown-two" class="countdown-two">
-            <div class="countdown-number-two">
-              <span class="hours-two countdown-time-two"></span>
-            </div>
-            <div><span class="countdown-doubledot-two"></span></div>
+          <div class="countdown" data-minutes="3">
             <div class="countdown-number">
-              <span class="minutes-two countdown-time-two"></span>
+              <span class="minutes countdown-time"></span>
             </div>
-            <div><span class="countdown-doubledot-two"></span></div>
+            <div><span class="countdown-doubledot"></span></div>
             <div class="countdown-number">
-              <span class="seconds-two countdown-time-two"></span>
+              <span class="seconds countdown-time"></span>
+            </div>
+            <div><span class="countdown-doubledot"></span></div>
+            <div class="countdown-number">
+              <span class="milliseconds countdown-time"></span>
             </div>
           </div>
           <div class="bonus-wrapper">
@@ -981,12 +981,38 @@
         <div id="kwiga-widget-1706252324"></div>
       </div>
     </div> -->
+    <div class="buy-button-container" id="fixedButton">
+      <a class="header-button link" href="#more">Детальніше</a>
+      <div class="header-sale-mark">
+        <picture
+          ><source
+            srcset="
+              ./src/images/header-mark-1x.png 1x,
+              ./src/images/header-mark-2x.png 2x
+            "
+            media="(min-width: 320px)"
+            width="70"
+            height="70" />
+          <img
+            class="sale-mark"
+            src="./src/images/header-mark-1x.png"
+            alt="sale"
+            width="70"
+            height="70"
+        /></picture>
+        <p class="sale-number">
+          <span>до</span> <br />
+          -93%
+        </p>
+      </div>
+    </div>
     <script type="module" src="./src/js/timer.js"></script>
     <script
       type="module"
       src="https://kwiga.com/build/js/kwiga-widget.js?t=1706252324&uuid=74b0ca9b-1ad5-4d28-b722-6738a1a9b86e&producer=https://kwiga.com/"
     ></script>
     <!-- <script type="module" src="./src/js/js-modal.js"></script> -->
+    <script src="./src/js/fixedButton.js" type="module"></script>
     <script type="module" src="./src/js/jquery-3.7.0.min.js"></script>
     <script type="module" src="./src/js/faq.js"></script>
     <script type="module" src="./src/js/changeDate.js"></script>

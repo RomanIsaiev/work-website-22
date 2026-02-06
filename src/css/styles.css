@@ -33,6 +33,16 @@ p {
   max-width: 360px;
 }
 
+#fixedButton {
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+  max-width: 300px;
+  z-index: 999;
+}
+
 /* HEADER */
 
 .header-wrapper {
@@ -263,7 +273,9 @@ p {
   border-radius: 20px;
   border: 1px solid transparent;
   background: linear-gradient(180deg, #ffdd87, #fb2357) border-box;
-  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  mask:
+    linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
 }
@@ -1423,7 +1435,9 @@ p {
   border: 1px solid transparent;
   background: linear-gradient(180deg, #ffa132, rgba(255, 187, 107, 0.05))
     border-box;
-  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  mask:
+    linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
 }
@@ -1629,7 +1643,9 @@ body.show-modal .modal {
   pointer-events: none;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 200ms ease-in-out, visibility 200ms ease-in-out;
+  transition:
+    opacity 200ms ease-in-out,
+    visibility 200ms ease-in-out;
 
   padding: 30px;
 }
@@ -1643,8 +1659,10 @@ body.show-modal .modal {
   width: 100%;
   min-height: 308px;
   background-color: #fff;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  box-shadow:
+    0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 2px 1px -1px rgba(0, 0, 0, 0.12);
 
   transform: scale(1);
   transition: transform 200ms ease-in-out;
